@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #191B1D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .plan-details {
+    background-color: #BC1E4A;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 0 0 7px 7px;
+    height: 75px;
+  }
+  
+  .plan-details span {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .plan-details p {
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 100px;
+  }
+  
+  .container h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container .plan-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 250px;
+    margin:0 auto;
+  }
+  
+  .container .plan-type span{
+  font-size:16px;
+  font-weight:400;  
+  }
+  
+  .container .plan-type .bill-btn {
+    background-color: #BC1E4A;
+    width: 50px;
+    height: 30px;
+    border-radius: 9999px;
+    border: none;
+    padding: 5px 7px;
+    position: relative;
+    transition: 0.3s ease;
+  }
+  
+  .container .plan-type .bill-btn .circle {
+    content: "";
+    position: absolute;
+    transform:translateY(-50%);
+    right:5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    cursor:pointer;
+    transition: 0.3s ease;
+  }
+  
+  .plans{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .plan{
+    width:370px;
+    background-color:rgb(34,38,44);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 15px;
+  }
+  .plan:hover{
+    transform:scale(1.1);
+  }
+
+  .plan .plan-header{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .plan-header p{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .plan-header span{
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .plan-header .custom-span{
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+
+form select{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #2E3238;
+    outline: none;
+    border-radius: 4px;
+
+}
+
+form option{
+    background-color: #2E3238;
+    color: white;
+}
+  .plan ul{
+    padding: 15px 30px;
+   
+  }
+  .plan ul li{
+    margin-bottom: 10px;
+  }
+  .plan ul li::marker{
+    color: #BC1E4A;
+  }
+
+  .plan .choose-btn{
+    display: block;
+    border: 1px solid #BC1E4A;
+    padding: 10px 20px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    margin:0 auto;
+  }
+.plan .custom-btn{
+    background-color: #BC1E4A;
+}

@@ -90,7 +90,7 @@
   }
 
   .plan{
-    width:33%;
+    width:32%;
     background-color:rgb(34,38,44);
     color: white;
     padding: 15px 30px;
@@ -102,6 +102,7 @@
     cursor: pointer;
     transition: 0.3s ease;
     margin-bottom: 15px;
+      height:450px;
   }
   .plan:hover{
     transform:scale(1.1);
